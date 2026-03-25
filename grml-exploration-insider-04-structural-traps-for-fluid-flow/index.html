@@ -1,4 +1,117 @@
-<!DOCTYPE html><html lang="en"> <head>
-<style>*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;padding:0;font-family:'Source Sans 3',-apple-system,sans-serif;line-height:1.7;color:#1a202c;background:#f7fafc}h1,h2,h3,h4,h5,h6{font-family:'Crimson Pro',Georgia,serif;color:#1a202c;line-height:1.25;margin:0 0 .5em}a{color:#68d391;text-decoration:none}a:hover{text-decoration:underline}.site-nav{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 3px rgba(0,0,0,.06)}.nav-inner{max-width:72rem;margin:0 auto;padding:.875rem 1rem;display:flex;align-items:center;justify-content:space-between}@media(min-width:640px){.nav-inner{padding:.875rem 1.5rem}}.site-logo{font-family:'Crimson Pro',Georgia,serif;font-size:1.25rem;font-weight:700;color:#276749;text-decoration:none;letter-spacing:-.02em}@media(min-width:768px){.site-logo{font-size:1.5rem}}.nav-links{display:none;align-items:center;gap:1.5rem;font-size:.875rem;font-weight:500}@media(min-width:768px){.nav-links{display:flex}}.nav-links a{color:#4a5568;text-decoration:none;transition:color .15s}.nav-links a:hover{color:#276749;text-decoration:none}.hero{overflow:hidden;background:linear-gradient(135deg,#276749 0%,#276749dd 100%);padding:3rem 1rem}@media(min-width:640px){.hero{padding:4rem 1.5rem}}@media(min-width:768px){.hero{padding:5rem 1.5rem}}.hero-inner{max-width:72rem;margin:0 auto}.hero h1{font-size:2rem;font-weight:800;color:#fff;line-height:1.15}@media(min-width:640px){.hero h1{font-size:2.5rem}}@media(min-width:768px){.hero h1{font-size:3rem}}.hero .subtitle{margin-top:1rem;font-size:1.125rem;color:rgba(255,255,255,.7);max-width:42rem;line-height:1.65}.hero-badges{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.25rem}.badge{display:inline-block;padding:.2rem .65rem;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;border-radius:9999px}.badge-accent{background:#68d391;color:white}.hero-ctas{margin-top:1.75rem;display:flex;flex-wrap:wrap;gap:.75rem}.cta-primary{display:inline-block;padding:.625rem 1.5rem;background:#fff;color:#276749;font-weight:600;border-radius:.5rem;font-size:.9375rem;text-decoration:none}.cta-primary:hover{opacity:.9;text-decoration:none}.cta-outline{display:inline-block;padding:.625rem 1.5rem;border:2px solid #fff;color:#fff;font-weight:600;border-radius:.5rem;font-size:.9375rem;text-decoration:none}.cta-outline:hover{opacity:.85;text-decoration:none}.section{max-width:72rem;margin:0 auto;padding:3.5rem 1rem}@media(min-width:640px){.section{padding:3.5rem 1.5rem}}.section-title{font-size:1.5rem;font-weight:700}@media(min-width:768px){.section-title{font-size:1.875rem}}.section-desc{margin-top:.5rem;font-size:1rem;color:#718096;max-width:42rem}.card{background:#fff;border:1px solid #e2e8f0;border-radius:.75rem;overflow:hidden;transition:box-shadow .2s,transform .2s}.card:hover{box-shadow:0 8px 25px rgba(0,0,0,.08);transform:translateY(-2px)}.card-body{padding:1.25rem}.card-title{font-size:1.0625rem;font-weight:600;color:#1a202c;margin:0}.card-desc{font-size:.875rem;margin-top:.375rem;color:#718096;line-height:1.6}.grid-2{display:grid;gap:1.5rem}.grid-3{display:grid;gap:1.5rem}@media(min-width:768px){.grid-2{grid-template-columns:1fr 1fr}}@media(min-width:768px){.grid-3{grid-template-columns:repeat(3,1fr)}}.article-content h2{margin-top:2rem;font-size:1.375rem;padding-bottom:.5rem;border-bottom:2px solid #68d39122}.article-content h3{margin-top:1.5rem;font-size:1.125rem}.article-content p{margin-bottom:1rem;color:#4a5568;line-height:1.75}.article-content ul,.article-content ol{margin-bottom:1rem;padding-left:1.5rem;color:#4a5568}.article-content li{margin-bottom:.375rem;line-height:1.6}.article-content strong{color:#1a202c}.article-content blockquote{margin:1.5rem 0;padding:1rem 1.25rem;border-left:4px solid #68d391;background:#f7fafc;color:#4a5568;font-style:italic}.article-content hr{border:none;border-top:1px solid #e2e8f0;margin:2rem 0}.tag{display:inline-block;padding:.15rem .5rem;font-size:.7rem;font-weight:500;border-radius:.25rem;background:#68d39115;color:#68d391;margin-right:.25rem}.page-header{background:#fff;border-bottom:1px solid #e2e8f0;padding:2rem 1rem}@media(min-width:640px){.page-header{padding:2.5rem 1.5rem}}.page-header-inner{max-width:56rem;margin:0 auto}.page-header h1{font-size:1.75rem;font-weight:700}@media(min-width:640px){.page-header h1{font-size:2.25rem}}.page-meta{margin-top:.5rem;font-size:.875rem;color:#a0aec0}.author-card{display:flex;gap:1rem;align-items:flex-start;margin-top:2rem;padding:1.25rem;background:#f7fafc;border-radius:.75rem}.author-avatar{width:3.5rem;height:3.5rem;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.125rem;color:white;background:#276749}.author-name{font-weight:600;font-size:.9375rem;color:#1a202c}.author-bio{font-size:.8125rem;color:#718096;margin-top:.25rem;line-height:1.5}.ticker-bar{background:#fff;border-bottom:1px solid #e2e8f0;overflow-x:auto}.ticker-inner{max-width:72rem;margin:0 auto;display:flex;align-items:center;gap:1.75rem;padding:.625rem 1rem;font-size:.8125rem;white-space:nowrap}.ticker-label{font-size:.6875rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#a0aec0}.ticker-sym{font-weight:700;color:#1a202c}.ticker-exch{font-size:.6875rem;color:#a0aec0;margin-left:.25rem}.footer{border-top:1px solid #e2e8f0;margin-top:4rem;padding:2.5rem 0;background:#fff}.footer-inner{max-width:72rem;margin:0 auto;padding:0 1rem}@media(min-width:640px){.footer-inner{padding:0 1.5rem}}.footer-grid{display:grid;gap:2rem}@media(min-width:768px){.footer-grid{grid-template-columns:1fr 1fr 1fr}}.footer-heading{font-size:.8125rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#276749;margin-bottom:.75rem}.footer-text{font-size:.8125rem;line-height:1.6;color:#718096}.footer-bottom{margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e2e8f0;text-align:center;font-size:.8125rem;color:#a0aec0}</style><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Structural Traps for Fluid Flow: Where Mineralization Actually Gets Stuck | Greenland Exploration Insider</title><meta name="description" content="A Greenland field-logic guide to identifying structural traps, deciding drill azimuths, and aligning that with EIA-safe staged exploration."><link rel="canonical" href="https://greenlandexplorationinsider.com/grml-exploration-insider-04-structural-traps-for-fluid-flow/"><meta name="author" content="Dr. Anna Björk"><meta property="og:title" content="Structural Traps for Fluid Flow: Where Mineralization Actually Gets Stuck"><meta property="og:description" content="A Greenland field-logic guide to identifying structural traps, deciding drill azimuths, and aligning that with EIA-safe staged exploration."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet"></head> <body> <header class="site-nav"> <div class="nav-inner"> <a href="/" class="site-logo">Greenland Exploration Insider</a> <nav class="nav-links" id="nav-links"></nav> </div> </header> <main> <div class="page-header"><div class="page-header-inner"> <h1>Structural Traps for Fluid Flow: Where Mineralization Actually Gets Stuck</h1> <p class="page-meta">By Dr. Anna Björk &middot; 2026-03-23</p> </div></div> <div class="section" style="max-width:56rem;"> <div style="margin-bottom:1rem"><span class="tag">[Greenland geology</span><span class="tag">structural geology</span><span class="tag">PGM mineralization</span><span class="tag">drilling azimuth</span><span class="tag">EIA staging]</span></div> <div class="article-content"><h2>Mineralization Is a Geography of Motion</h2> <p>Sulfides and PGMs do not spread uniformly. They concentrate where fluid pathways lose velocity, where chemistry changes, and where structures mechanically focus flow.</p> <p>In Greenland’s orogenic belts, mineralization is often linked to structures that act as traps. These traps can be:</p> <li>intersections of faults and folds</li> <li>shear zone segments where permeability changes</li> <li>lithologic boundaries where rheology shifts</li> <p>From an exploration standpoint, the most important aspect is that traps create geometry. Geometry creates intercept plans. Intercept plans decide whether a hole yields usable mineralization data or just an expensive “maybe.”</p> <h2>Turning Structure into a Drill-Azimuth Problem</h2> <p>Teams often speak about drill direction as if it is a detail. In structural trap environments, it is central.</p> <p>A practical trap model has three measurable components:</p> <li>**Trend**: the strike direction of the corridor</li> <li>**Dip**: how steeply the trap plunges</li> <li>**Continuity**: whether the trap is segmented and how far segments can be traced</li> <p>If your geophysics suggests a conductive lineament but structural mapping suggests the trap is narrower than the conductor, you adjust azimuth and hole trajectory to maximize the probability of sampling the actual trapped zone.</p> <p>This is why exploration programs that integrate structural geology with geophysics tend to learn faster.</p> <h2>Drilling for Trap Validation: The Two-Hole Philosophy</h2> <p>A common early-stage strategy is to drill two holes that bracket the interpreted trap geometry.</p> <li>Hole A tests the assumed trap plane.</li> <li>Hole B tests the alternative dip or segment boundary.</li> <p>If both holes show mineralized intervals in the expected relationship, the model strengthens rapidly. If one hole shows the corridor but not the trap, the data still matters. It tells you which part of the system is real and which is model overreach.</p> <p>This staged validation reduces the risk of wide spacing drilling that can create ambiguous results.</p> <h2>Core Logging as Structural Evidence</h2> <p>Structural traps are not just something you map on surface. In drilling, you should treat core logging as structural measurement.</p> <p>That typically means:</p> <li>recording fracture sets and their orientation</li> <li>logging shear textures and alteration boundaries</li> <li>noting whether mineralization is vein-like, disseminated, or structurally controlled</li> <p>If you combine that structural evidence with geophysics interpretation, the next drill round becomes more precise.</p> <h2>Linking to Permitting: Staged Work That Minimizes Disturbance</h2> <p>From an EIA perspective, staged work has a defensible logic: you reduce uncertainty before expanding the footprint.</p> <p>A trap-validation drilling philosophy supports this because it aims to:</p> <li>use the minimum number of validation holes</li> <li>avoid unnecessary deep drilling on low-confidence geometries</li> <li>focus field activities on the most information-dense targets</li> <p>Regulators and EIA teams tend to respond well to programs that demonstrate a “learn fast, then scale” approach rather than repeated expansions without model updates.</p> <h2>Implications for Skaergaard EIA Momentum</h2> <p>Skaergaard’s position as Greenland’s most advanced PGM narrative depends on credibility. Credibility in exploration is a product of disciplined iteration.</p> <p>Even when a project is pre-production, the underlying exploration mindset still matters for:</p> <li>refining the geological model for resource confidence</li> <li>ensuring that environmental and engineering planning is grounded in real rock response</li> <p>Trap-based drilling and logging is the type of workflow that makes a big project feel “engineerable.”</p> <h2>Bottom Line</h2> <p>Structural traps are where mineralization “gets stuck.”</p> <p>If your drill program is designed to validate those traps geometrically, and you let core logging measure the trap, you increase your chance of both geological success and a smoother permitting narrative.</p> <hr> <p><em>Disclaimer: This content is informational and does not constitute financial advice.</em></p></div> </div> </main> <footer class="footer"> <div class="footer-inner"> <div class="footer-grid"> <div><p class="footer-heading">Greenland Exploration Insider</p><p class="footer-text">Tracking mineral exploration activity across Greenland</p></div> <div><p class="footer-heading">About</p><p class="footer-text">Exploration geologist with field experience in Greenland, Iceland, and Scandinavia. Publishes independent exploration analysis.</p></div> <div><p class="footer-heading">Disclaimer</p><p class="footer-text">All content is for informational purposes only. Not financial advice.</p></div> </div> <div class="footer-bottom">&copy; 2026 Greenland Exploration Insider</div> </div> </footer> <script>
-    document.getElementById('nav-links').innerHTML = navData.map(function(p){return '<a >'+p.name+'</a>';}).join('');
-  </script> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Structural Traps for Fluid Flow: Where Mineralization Actually Gets Stuck | Greenland Exploration Insider</title>
+<meta name="description" content="A Greenland field-logic guide to identifying structural traps, deciding drill azimuths, and aligning that with EIA-safe staged exploration.">
+<link rel="canonical" href="https://greenlandexplorationinsider.com/grml-exploration-insider-04-structural-traps-for-fluid-flow/">
+<meta name="author" content="Dr. Anna Björk">
+<meta property="og:title" content="Structural Traps for Fluid Flow: Where Mineralization Actually Gets Stuck">
+<meta property="og:description" content="A Greenland field-logic guide to identifying structural traps, deciding drill azimuths, and aligning that with EIA-safe staged exploration.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;padding:0;font-family:'Inter',-apple-system,sans-serif;line-height:1.7;color:#1a202c;background:#f7fafc}h1,h2,h3,h4,h5,h6{font-family:'Merriweather',Georgia,serif;color:#1a202c;line-height:1.25;margin:0 0 .5em}a{color:#68d391;text-decoration:none}a:hover{text-decoration:underline}.site-nav{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 3px rgba(0,0,0,.06)}.nav-inner{max-width:72rem;margin:0 auto;padding:.875rem 1rem;display:flex;align-items:center;justify-content:space-between}@media(min-width:640px){.nav-inner{padding:.875rem 1.5rem}}.site-logo{font-family:'Merriweather',Georgia,serif;font-size:1.25rem;font-weight:700;color:#276749;text-decoration:none;letter-spacing:-.02em}@media(min-width:768px){.site-logo{font-size:1.5rem}}.tag{display:inline-block;padding:.15rem .5rem;font-size:.7rem;font-weight:500;border-radius:.25rem;background:#68d39115;color:#68d391;margin-right:.25rem}.page-header{background:#fff;border-bottom:1px solid #e2e8f0;padding:2rem 1rem}@media(min-width:640px){.page-header{padding:2.5rem 1.5rem}}.page-header-inner{max-width:56rem;margin:0 auto}.page-header h1{font-size:1.75rem;font-weight:700}@media(min-width:640px){.page-header h1{font-size:2.25rem}}.page-meta{margin-top:.5rem;font-size:.875rem;color:#a0aec0}.section{max-width:72rem;margin:0 auto;padding:3.5rem 1rem}@media(min-width:640px){.section{padding:3.5rem 1.5rem}}.article-content h2{margin-top:2rem;font-size:1.375rem;padding-bottom:.5rem;border-bottom:2px solid #68d39122}.article-content h3{margin-top:1.5rem;font-size:1.125rem}.article-content p{margin-bottom:1rem;color:#4a5568;line-height:1.75}.article-content ul,.article-content ol{margin-bottom:1rem;padding-left:1.5rem;color:#4a5568}.article-content li{margin-bottom:.375rem;line-height:1.6}.article-content strong{color:#1a202c}.article-content blockquote{margin:1.5rem 0;padding:1rem 1.25rem;border-left:4px solid #68d391;background:#f7fafc;color:#4a5568;font-style:italic}.footer{border-top:1px solid #e2e8f0;margin-top:4rem;padding:2.5rem 0;background:#fff}.footer-inner{max-width:72rem;margin:0 auto;padding:0 1rem}@media(min-width:640px){.footer-inner{padding:0 1.5rem}}.footer-grid{display:grid;gap:2rem}@media(min-width:768px){.footer-grid{grid-template-columns:1fr 1fr 1fr}}.footer-heading{font-size:.8125rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#276749;margin-bottom:.75rem}.footer-text{font-size:.8125rem;line-height:1.6;color:#718096}.footer-bottom{margin-top:2rem;padding-top:1.25rem;border-top:1px solid #e2e8f0;text-align:center;font-size:.8125rem;color:#a0aec0}</style>
+</head>
+<body>
+<header class="site-nav">
+<div class="nav-inner">
+<a href="/" class="site-logo">Greenland Exploration Insider</a>
+</div>
+</header>
+<main>
+<div class="page-header"><div class="page-header-inner">
+<h1>Structural Traps for Fluid Flow: Where Mineralization Actually Gets Stuck</h1>
+<p class="page-meta">By Dr. Anna Björk &middot; 2026-03-23</p>
+</div></div>
+<div class="section" style="max-width:56rem;">
+<div style="margin-bottom:1rem"><span class="tag">[Greenland geology</span><span class="tag">structural geology</span><span class="tag">PGM mineralization</span><span class="tag">drilling azimuth</span></div>
+<div class="article-content"><h2>Mineralization Is a Geography of Motion</h2>
+<p>Sulfides and PGMs do not spread uniformly. They concentrate where fluid pathways lose velocity, where chemistry changes, and where structures mechanically focus flow.
+</p>
+<p>In Greenland’s orogenic belts, mineralization is often linked to structures that act as traps. These traps can be:
+</p>
+<ul><li>intersections of faults and folds</li>
+<li>shear zone segments where permeability changes</li>
+<li>lithologic boundaries where rheology shifts</li>
+</ul>
+<p>From an exploration standpoint, the most important aspect is that traps create geometry. Geometry creates intercept plans. Intercept plans decide whether a hole yields usable mineralization data or just an expensive “maybe.”
+</p>
+<h2>Turning Structure into a Drill-Azimuth Problem</h2>
+<p>Teams often speak about drill direction as if it is a detail. In structural trap environments, it is central.
+</p>
+<p>A practical trap model has three measurable components:
+</p>
+<ul><li><strong>Trend</strong>: the strike direction of the corridor</li>
+<li><strong>Dip</strong>: how steeply the trap plunges</li>
+<li><strong>Continuity</strong>: whether the trap is segmented and how far segments can be traced</li>
+</ul>
+<p>If your geophysics suggests a conductive lineament but structural mapping suggests the trap is narrower than the conductor, you adjust azimuth and hole trajectory to maximize the probability of sampling the actual trapped zone.
+</p>
+<p>This is why exploration programs that integrate structural geology with geophysics tend to learn faster.
+</p>
+<h2>Drilling for Trap Validation: The Two-Hole Philosophy</h2>
+<p>A common early-stage strategy is to drill two holes that bracket the interpreted trap geometry.
+</p>
+<ul><li>Hole A tests the assumed trap plane.</li>
+<li>Hole B tests the alternative dip or segment boundary.</li>
+</ul>
+<p>If both holes show mineralized intervals in the expected relationship, the model strengthens rapidly. If one hole shows the corridor but not the trap, the data still matters. It tells you which part of the system is real and which is model overreach.
+</p>
+<p>This staged validation reduces the risk of wide spacing drilling that can create ambiguous results.
+</p>
+<h2>Core Logging as Structural Evidence</h2>
+<p>Structural traps are not just something you map on surface. In drilling, you should treat core logging as structural measurement.
+</p>
+<p>That typically means:
+</p>
+<ul><li>recording fracture sets and their orientation</li>
+<li>logging shear textures and alteration boundaries</li>
+<li>noting whether mineralization is vein-like, disseminated, or structurally controlled</li>
+</ul>
+<p>If you combine that structural evidence with geophysics interpretation, the next drill round becomes more precise.
+</p>
+<h2>Linking to Permitting: Staged Work That Minimizes Disturbance</h2>
+<p>From an EIA perspective, staged work has a defensible logic: you reduce uncertainty before expanding the footprint.
+</p>
+<p>A trap-validation drilling philosophy supports this because it aims to:
+</p>
+<ul><li>use the minimum number of validation holes</li>
+<li>avoid unnecessary deep drilling on low-confidence geometries</li>
+<li>focus field activities on the most information-dense targets</li>
+</ul>
+<p>Regulators and EIA teams tend to respond well to programs that demonstrate a “learn fast, then scale” approach rather than repeated expansions without model updates.
+</p>
+<h2>Implications for Skaergaard EIA Momentum</h2>
+<p>Skaergaard’s position as Greenland’s most advanced PGM narrative depends on credibility. Credibility in exploration is a product of disciplined iteration.
+</p>
+<p>Even when a project is pre-production, the underlying exploration mindset still matters for:
+</p>
+<ul><li>refining the geological model for resource confidence</li>
+<li>ensuring that environmental and engineering planning is grounded in real rock response</li>
+</ul>
+<p>Trap-based drilling and logging is the type of workflow that makes a big project feel “engineerable.”
+</p>
+<h2>Bottom Line</h2>
+<p>Structural traps are where mineralization “gets stuck.”
+</p>
+<p>If your drill program is designed to validate those traps geometrically, and you let core logging measure the trap, you increase your chance of both geological success and a smoother permitting narrative.
+</p>
+<hr>
+<p><em>Disclaimer: This content is informational and does not constitute financial advice.</em>
+</p></div>
+</div>
+</main>
+<footer class="footer">
+<div class="footer-inner">
+<div class="footer-grid">
+<div><p class="footer-heading">Greenland Exploration Insider</p><p class="footer-text">Tracking mineral exploration activity across Greenland</p></div>
+<div><p class="footer-heading">About</p><p class="footer-text">Resource sector research publisher. Independent analysis of Arctic mining and critical minerals.</p></div>
+<div><p class="footer-heading">Disclaimer</p><p class="footer-text">All content is for informational purposes only. Not financial advice.</p></div>
+</div>
+<div class="footer-bottom">&copy; 2026 Greenland Exploration Insider</div>
+</div>
+</footer>
+</body>
+</html>
